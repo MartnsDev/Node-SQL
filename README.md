@@ -19,4 +19,4 @@ Projeto completo de autenticação de usuários com back-end em Node.jss.
 - Dotenv
 - EJS (pode trocar por HTML se quiser)
 
-
+## Para rodar basta configurar o banco de dados, criar as tabelas e rodar o app.js no node.
