@@ -11,14 +11,12 @@ app.use(express.json());
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
-// Configuração de sessão
 app.use(session({
   secret: 'mySecret',
   resave: false,
   saveUninitialized: false
 }));
 
-// Rotas de autenticação
 app.use(authRoutes);
 
 app.listen(3000, () => {
